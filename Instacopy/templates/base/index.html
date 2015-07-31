@@ -1,9 +1,13 @@
 <!DOCTYPE = html>
 <html>
 	<head>
-		<title>Hello</title>
+		<title>{% block title %}Hello{% endblock %}</title>
+		{% block static_content %}{% endblock %}
 	</head>
 	<body>
+		{% block content %}
 		<h1> {{u.username}}</h1>
+		{% endblock %}
+		
 	</body>
 </html>

@@ -1,9 +1,10 @@
 <!DOCTYPE = html>
 <html>
 	<head>
-		<title>title</title>
+		<title>Hello</title>
 	</head>
 	<body>
+		<h1> {{u.username}}</h1>
 		
 	</body>
 </html>
